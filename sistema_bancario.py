@@ -43,8 +43,6 @@ while True:
         if(valor_saque > limite_saque):
             print("Operação falhou! O valor informado é maior que o limite de saque.")
         elif(numero_saques >= LIMITE_SAQUES):
-            print(valor_saque)
-            print(LIMITE_SAQUES)
             print("Operação falhou! Limite de saques diários atingido.")
         elif(valor_saque > saldo):
             print("Operação falhou! Saldo insuficiente.")
